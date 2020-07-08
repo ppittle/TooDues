@@ -62,10 +62,10 @@ Copyright = '(c) Philip Pittle
 # ScriptsToProcess = @()
 
 # Type files (.ps1xml) to be loaded when importing this module
-# TypesToProcess = @()
+ #TypesToProcess = @()
 
 # Format files (.ps1xml) to be loaded when importing this module
-# FormatsToProcess = @()
+FormatsToProcess = "TooDues.Client.PowerShell.format.ps1xml"
 
 # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
 # NestedModules = @()
@@ -81,6 +81,7 @@ CmdletsToExport =
     'Set-TaskItem',
     "New-DailyTooDueList",
     "Deny-DailyTooDueList",
+    'Set-DailyTooDueListTaskItems',
     "Approve-DailyTooDueList",
     "Get-DailyTooDueList",
     "Complete-DailyTooDueList",

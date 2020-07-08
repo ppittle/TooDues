@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Management.Automation;
 using TooDues.Client.PowerShell.Client;
+using TooDues.Tasks.Models;
 
 namespace TooDues.Client.PowerShell
 {
     [Cmdlet(VerbsCommon.Set, "TaskItem")]
+    [OutputType(typeof(TooDueTaskItem))]
     public class SetTooDuesTaskItem : PSCmdlet
     {
         [Parameter(Mandatory = true, Position = 0)]

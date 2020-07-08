@@ -87,10 +87,5 @@ namespace TooDues.Client.PowerShell.Client
     {
         public DailyTooDueList CurrentList { get; set; }
         public DailyTooDueList PlanningList { get; set; }
-        /// <summary>
-        /// Storage to keep track if the user has run Finalize-DailyTooDueList before
-        /// trying to Complete-DailyTooDueList
-        /// </summary>
-        public bool HasUserFinalizedList { get; set; }
     }
 }

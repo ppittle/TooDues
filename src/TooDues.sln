@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{52
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TooDues.Client.BlazorServer", "TooDues.Client.BlazorServer\TooDues.Client.BlazorServer.csproj", "{FEBEE950-B25E-4231-AA84-8728A0D260A7}"
 EndProject
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TooDues.Client.BlazorWasm", "TooDues.Client.BlazorWasm\TooDues.Client.BlazorWasm.csproj", "{C3323C22-E144-4BEF-B31B-886184B2D80E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{FEBEE950-B25E-4231-AA84-8728A0D260A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEBEE950-B25E-4231-AA84-8728A0D260A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEBEE950-B25E-4231-AA84-8728A0D260A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3323C22-E144-4BEF-B31B-886184B2D80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3323C22-E144-4BEF-B31B-886184B2D80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3323C22-E144-4BEF-B31B-886184B2D80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3323C22-E144-4BEF-B31B-886184B2D80E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{DD9AD753-622D-4874-9FD4-F3F6EB64B2D4} = {D4B4985A-BD51-48ED-BAF1-6FADFD00323F}
 		{D4B4985A-BD51-48ED-BAF1-6FADFD00323F} = {52909F1A-A0A6-4264-A74F-46EE0B5E20CC}
 		{FEBEE950-B25E-4231-AA84-8728A0D260A7} = {932440A5-26A8-49B3-8591-8747D06454F8}
+		{C3323C22-E144-4BEF-B31B-886184B2D80E} = {932440A5-26A8-49B3-8591-8747D06454F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67DB344F-C746-411F-B11E-0AA7EA6C9683}
